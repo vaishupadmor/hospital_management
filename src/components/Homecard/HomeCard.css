@@ -1,0 +1,18 @@
+.HomeCard-container{
+    border:1px solid black;
+    height:380px;
+    width: 300px;
+}
+
+.HomeCard-image{
+    height:150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.HomeCard-details{
+    font-size: 13px;
+    font-weight: 100px;
+    font-style: italic;
+    margin: 10px;
+}
