@@ -1,0 +1,33 @@
+.Navbar-container{
+    position: relative;
+    top:0px;
+    background-color: #4CC9FE;
+    height: 70px;
+    width: 100%;
+    
+}
+.Links-container{
+    display: flex;
+    justify-content: right;
+    
+}
+.Navbar-Links{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100px;
+    color: black;
+    margin-top: -40px;
+    margin-right: 70px;
+
+}
+
+
+  
+.Logo-image-container{
+  display: flex;
+  justify-content: left;
+}
+.Logo-image{
+    height:60px;
+    margin-left: 10px;
+}

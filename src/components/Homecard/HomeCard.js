@@ -1,15 +1,19 @@
 import React from 'react'
 import "./HomeCard.css"
+import Button from '../Button/Button'
+import { ButtonData2 } from '../../Config/ButtonData'
 
 function HomeCard({Homeimg,name,price,description}) {
   return (
     <div className='HomeCard-container'>
        <img src={Homeimg} alt="Medicineimg" className="HomeCard-image"/>
       <div className="HomeCard-details">
-       <h2> Name:{name}</h2>
+       <h2 className='HomeCard-name'> {name}</h2>
        <p>{description}</p>
-       <p> {price?{price}:null}</p>
-       </div>
+       <p> Price:{price}</p>
+       
+    </div>
+    
     </div>
   )
 }

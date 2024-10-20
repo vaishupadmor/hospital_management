@@ -1,13 +1,14 @@
-.ButtonContainer{
-    position: relative;
-    bottom: 280px;
-    left:1120px;
-    
-}
+
 
 .button{
     border-radius: 20px;
     height: 32px;
     width: 90px;
-    background-color: ;
+    background-color: #37AFE1;
+    border: 1px solid #37AFE1;
+    color:whitesmoke;
+}
+
+.button:hover{
+    background-color: #1e6a8a;
 }

@@ -2,6 +2,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    
 }
 .Homemain-img-container{
     
@@ -9,4 +10,28 @@ body{
 .Homemain-img{
   width: 100%;
   height: 600px;
+}
+.HomeCard-Component{
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+.ButtonContainer-1{
+  position: relative;
+  bottom: 280px;
+  left:1120px;
+  
+}
+.Button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  bottom:70px;
+  
+}
+.Buttons{
+  margin-bottom: 10px;
+  
 }

@@ -3,7 +3,8 @@ import "./Button.css"
 
 function Button({ButtonName}) {
   return (
-    <div className='ButtonContainer'>
+    <div>
+        
         <button className='button'> {ButtonName}</button>
     </div>
   )

@@ -1,7 +1,11 @@
 .HomeCard-container{
+    position: relative;
     border:1px solid black;
     height:380px;
     width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #FFFECB;
 }
 
 .HomeCard-image{
@@ -14,5 +18,9 @@
     font-size: 13px;
     font-weight: 100px;
     font-style: italic;
-    margin: 10px;
+    text-align: center;
 }
+.HomeCard-name{
+    font-family:'Times New Roman', Times, serif;
+}
+
